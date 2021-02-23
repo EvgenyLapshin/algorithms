@@ -1,2 +1,2 @@
 # algorithms
-Library with algorithms
+Library of algorithms

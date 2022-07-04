@@ -1,6 +1,6 @@
 <?php
 
-namespace unit\Tasks;
+namespace Tests\Unit\Tasks;
 
 use Algorithms\Tasks\MaxPrice;
 use Codeception\Test\Unit;

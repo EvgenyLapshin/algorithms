@@ -2,6 +2,9 @@
 
 namespace Algorithms\Tasks;
 
+/**
+ * @link https://leetcode.com/problems/two-sum/
+ */
 class TwoSum
 {
     /**

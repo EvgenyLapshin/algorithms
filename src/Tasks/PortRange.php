@@ -2,10 +2,6 @@
 
 namespace Algorithms\Tasks;
 
-/**
- * Дан диапазон портов min и max, так же есть список уже занятых портов busy.
- * Нужно написать функцию, возвращающую все диапазоны свободных портов внутри min и max.
- */
 class PortRange
 {
     public function __construct(private int $min, private int $max, private array $busy) {}

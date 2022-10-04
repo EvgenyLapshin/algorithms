@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit\Tasks;
+namespace Tests\Unit\Helpers;
 
 use Algorithms\Helpers\ListNode;
 use Codeception\Test\Unit;

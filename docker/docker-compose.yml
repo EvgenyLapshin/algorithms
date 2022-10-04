@@ -1,0 +1,9 @@
+version: '3'
+services:
+  php:
+    container_name: ${COMPOSE_PROJECT_NAME}_php
+    build: php
+    restart: always
+    volumes:
+      - ./../${APP_FOLDER}:/var/www/html/${APP_NAME}/
+      - ./../.config/php/conf.d/:/usr/local/etc/php/conf.d/

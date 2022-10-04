@@ -1,6 +1,10 @@
-# file: ~/.gitignore_global
+# PHPStorm
+.idea/
 
+# Mac OS
 .DS_Store
-.idea/*
-.idea
-vendor
+
+# Docker
+.data/
+.logs/
+.config/
